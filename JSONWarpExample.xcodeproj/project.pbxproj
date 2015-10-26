@@ -45,6 +45,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		852312AA1BDE49DF0014C5C4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		852312AB1BDE49DF0014C5C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		854BEA581B8476BF00B022AD /* rubric.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rubric.json; sourceTree = "<group>"; };
 		85E2872E1BDE384F00F5B9D3 /* JSONWarp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONWarp.framework; path = "../../JSONWarp/build/Debug-iphoneos/JSONWarp.framework"; sourceTree = "<group>"; };
 		85E287311BDE38B500F5B9D3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
@@ -123,6 +125,8 @@
 		85EEC3F01B7C6DF900F065E8 /* JSONWarpExample */ = {
 			isa = PBXGroup;
 			children = (
+				852312AA1BDE49DF0014C5C4 /* LICENSE */,
+				852312AB1BDE49DF0014C5C4 /* README.md */,
 				85EEC4201B7C730E00F065E8 /* Globals.h */,
 				854ADD381BDE35CF003DD07F /* Sample JSON Files */,
 				85EEC3F51B7C6DF900F065E8 /* AppDelegate.h */,
