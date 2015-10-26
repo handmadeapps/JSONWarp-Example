@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <JSONWarp/SCLJSONWarp.h>
+#import <JSONWarp/JSONWarp.h>
 
 @interface ViewController ()
 
