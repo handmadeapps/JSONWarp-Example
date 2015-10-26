@@ -1,0 +1,39 @@
+{"terms":   [
+              {
+              "id": 20,
+              "term": "Skidegate Language",
+              "definition": "",
+              "long_definition": "",
+              "audio": "",
+              "isCategory": true,
+              "increment": 1
+              },
+              {
+              "id": 21,
+              "term": "Consonants ",
+              "definition": "",
+              "long_definition": "",
+              "audio": "",
+              "isCategory": true,
+              "increment": 2
+              },
+              {
+              "id": 22,
+              "term": "b",
+              "definition": "paaba = pepper ",
+              "long_definition": "<p>b as it sounds in = bear, baby, bag</p>",
+              "audio": "fass.arts.uni.com/uploads/course_113/1415038760785.mp3",
+              "isCategory": false,
+              "increment": 3
+              },
+              {
+              "id": 23,
+              "term": "ch",
+              "definition": "chiina = fish",
+              "long_definition": "<p>ch like used in = chair, chalk, champ</p>",
+              "audio": "fass.arts.uni.com/uploads/course_113/1415038771318.mp3",
+              "isCategory": false,
+              "increment": 4
+              }
+           ]
+}

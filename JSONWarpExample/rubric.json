@@ -1,0 +1,361 @@
+{
+  "status": "OK",
+  "data": {
+    "lastupdate": 0,
+    "studentid": "1",
+    "sections": [
+      {
+        "id": "1",
+        "notes": "Sample notes",
+        "title": "STRATEGIES",
+        "description": "check understanding**word skills**predictions**text features",
+        "grade_levels": [
+          {
+            "id": "1",
+            "title": "Not Yet Within Expectations",
+            "grade_lines": [
+              {
+                "points": 0.25,
+                "id": "1",
+                "title": "unable to monitor own reading",
+                "selected": 1
+              },
+              {
+                "points": 0.25,
+                "id": "2",
+                "title": "often stuck on new words",
+                "selected": 0
+              },
+              {
+                "points": 0.25,
+                "id": "3",
+                "title": "has difficulty making predictions",
+                "selected": 1
+              },
+              {
+                "points": 0.25,
+                "id": "4",
+                "title": "doesnt use text features",
+                "selected": 1
+              }
+            ],
+            "description": "With support, the student may be able to read brief, straightforward information and procedures, but is often unable to complete all parts of an assigned task"
+          },
+          {
+            "id": "2",
+            "title": "Meets Expectations (Minimal Level)",
+            "grade_lines": [
+              {
+                "points": 0.5,
+                "id": "11",
+                "title": "needs prompting to adjust strategies",
+                "selected": 0
+              },
+              {
+                "points": 0.5,
+                "id": "12",
+                "title": "when prompted, analyzes word parts in technical words",
+                "selected": 0
+              },
+              {
+                "points": 0.5,
+                "id": "13",
+                "title": "makes simple predictions",
+                "selected": 0
+              },
+              {
+                "points": 0.5,
+                "id": "14",
+                "title": "uses text features with support",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read straightforward information and procedures that include some specialized language and complex ideas; may have difficulty completing longer selections and tasks. Work may lack detail."
+          },
+          {
+            "id": "3",
+            "title": "Fully Meets Expectations",
+            "grade_lines": [
+              {
+                "points": 0.75,
+                "id": "21",
+                "title": "adjusts strategies for the material",
+                "selected": 0
+              },
+              {
+                "points": 0.75,
+                "id": "22",
+                "title": "uses variety of strategies for technical language",
+                "selected": 0
+              },
+              {
+                "points": 0.75,
+                "id": "23",
+                "title": "makes logical predictions",
+                "selected": 0
+              },
+              {
+                "points": 0.75,
+                "id": "24",
+                "title": "uses text features",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read straightforward information and procedures that include some specialized language and complex ideas. Work is accurate and complete."
+          },
+          {
+            "id": "4",
+            "title": "Exceeds Expectations",
+            "grade_lines": [
+              {
+                "points": 1,
+                "id": "31",
+                "title": "chooses effective strategies for challenging material",
+                "selected": 0
+              },
+              {
+                "points": 1,
+                "id": "32",
+                "title": "figures out technical language",
+                "selected": 1
+              },
+              {
+                "points": 1,
+                "id": "33",
+                "title": "anticipates content and structure",
+                "selected": 0
+              },
+              {
+                "points": 1,
+                "id": "34",
+                "title": "uses text features efficiently",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read elaborated information and procedures that include specialized language and complex relationships. Work is precise and thorough, often exceeds requirements."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "notes": "",
+        "title": "COMPREHENSION",
+        "description": "accuracy, completeness**main ideas**details**note-making**inferences",
+        "grade_levels": [
+          {
+            "id": "1",
+            "title": "Not Yet Within Expectations",
+            "grade_lines": [
+              {
+                "points": 0.2,
+                "id": "5",
+                "title": "work is often inaccurate, vague, or incomplete",
+                "selected": 0
+              },
+              {
+                "points": 0.2,
+                "id": "6",
+                "title": "may confuse main and supporting information",
+                "selected": 0
+              },
+              {
+                "points": 0.2,
+                "id": "7",
+                "title": "locates some details if asked; omits a great deal",
+                "selected": 0
+              },
+              {
+                "points": 0.2,
+                "id": "8",
+                "title": "needs help to make notes",
+                "selected": 0
+              },
+              {
+                "points": 0.2,
+                "id": "9",
+                "title": "often unable to make inferences",
+                "selected": 0
+              }
+            ],
+            "description": "With support, the student may be able to read brief, straightforward information and procedures, but is often unable to complete all parts of an assigned task"
+          },
+          {
+            "id": "2",
+            "title": "Meets Expectations (Minimal Level)",
+            "grade_lines": [
+              {
+                "points": 0.4,
+                "id": "15",
+                "title": "work is generally accurate",
+                "selected": 0
+              },
+              {
+                "points": 0.4,
+                "id": "16",
+                "title": "identifies most main ideas",
+                "selected": 0
+              },
+              {
+                "points": 0.4,
+                "id": "17",
+                "title": "locates some details; omits some",
+                "selected": 1
+              },
+              {
+                "points": 0.4,
+                "id": "18",
+                "title": "makes simple notes",
+                "selected": 0
+              },
+              {
+                "points": 0.4,
+                "id": "19",
+                "title": "some inferences are illogical or unsupported",
+                "selected": 1
+              }
+            ],
+            "description": "The student is able to read straightforward information and procedures that include some specialized language and complex ideas; may have difficulty completing longer selections and tasks. Work may lack detail."
+          },
+          {
+            "id": "3",
+            "title": "Fully Meets Expectations",
+            "grade_lines": [
+              {
+                "points": 0.6,
+                "id": "25",
+                "title": "work is accurate, clear, and complete",
+                "selected": 0
+              },
+              {
+                "points": 0.6,
+                "id": "26",
+                "title": "identifies main ideas and restates in own words",
+                "selected": 0
+              },
+              {
+                "points": 0.6,
+                "id": "27",
+                "title": "locates specific, relevant details",
+                "selected": 0
+              },
+              {
+                "points": 0.6,
+                "id": "28",
+                "title": "makes accurate, organized notes",
+                "selected": 0
+              },
+              {
+                "points": 0.6,
+                "id": "29",
+                "title": "supports inferences or interpretations if asked",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read straightforward information and procedures that include some specialized language and complex ideas. Work is accurate and complete."
+          },
+          {
+            "id": "4",
+            "title": "Exceeds Expectations",
+            "grade_lines": [
+              {
+                "points": 0.8,
+                "id": "35",
+                "title": "work is precise and thorough; may include insights",
+                "selected": 1
+              },
+              {
+                "points": 0.8,
+                "id": "36",
+                "title": "identifies and restates main ideas; explains how they are connected",
+                "selected": 1
+              },
+              {
+                "points": 0.8,
+                "id": "37",
+                "title": "locates specific, relevant details",
+                "selected": 0
+              },
+              {
+                "points": 0.8,
+                "id": "38",
+                "title": "makes accurate, detailed notes in appropriate form",
+                "selected": 0
+              },
+              {
+                "points": 0.8,
+                "id": "39",
+                "title": "supports inferences with specific evidence",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read elaborated information and procedures that include specialized language and complex relationships. Work is precise and thorough, often exceeds requirements."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "notes": "",
+        "title": "ANALYSIS",
+        "description": "connection to prior knowledge",
+        "grade_levels": [
+          {
+            "id": "1",
+            "title": "Not Yet Within Expectations",
+            "grade_lines": [
+              {
+                "points": 1,
+                "id": "10",
+                "title": "has difficulty making connections to prior knowledge",
+                "selected": 0
+              }
+            ],
+            "description": "With support, the student may be able to read brief, straightforward information and procedures, but is often unable to complete all parts of an assigned task"
+          },
+          {
+            "id": "2",
+            "title": "Meets Expectations (Minimal Level)",
+            "grade_lines": [
+              {
+                "points": 2,
+                "id": "20",
+                "title": "offers simple comparisons to prior knowledge and beliefs",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read straightforward information and procedures that include some specialized language and complex ideas; may have difficulty completing longer selections and tasks. Work may lack detail."
+          },
+          {
+            "id": "3",
+            "title": "Fully Meets Expectations",
+            "grade_lines": [
+              {
+                "points": 3,
+                "id": "30",
+                "title": "compares key ideas with prior knowledge and beliefs",
+                "selected": 0
+              }
+            ],
+            "description": "The student is able to read straightforward information and procedures that include some specialized language and complex ideas. Work is accurate and complete."
+          },
+          {
+            "id": "4",
+            "title": "Exceeds Expectations",
+            "grade_lines": [
+              {
+                "points": 4,
+                "id": "40",
+                "title": "compares new information with prior knowledge and beliefs; shows insight",
+                "selected": 1
+              }
+            ],
+            "description": "The student is able to read elaborated information and procedures that include specialized language and complex relationships. Work is precise and thorough, often exceeds requirements."
+          }
+        ]
+      }
+    ],
+    "assignmentid": "",
+    "classid": "1",
+    "id": "1",
+    "type": "1"
+  }
+}
