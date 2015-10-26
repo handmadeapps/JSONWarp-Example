@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		854ADCD11BDE2CD3003DD07F /* JSONWarp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854ADCC71BDE2CD3003DD07F /* JSONWarp.framework */; };
-		854ADCDC1BDE2CD3003DD07F /* JSONWarp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854ADCC71BDE2CD3003DD07F /* JSONWarp.framework */; };
-		854ADCDD1BDE2CD3003DD07F /* JSONWarp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 854ADCC71BDE2CD3003DD07F /* JSONWarp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		854BEA591B8476BF00B022AD /* rubric.json in Resources */ = {isa = PBXBuildFile; fileRef = 854BEA581B8476BF00B022AD /* rubric.json */; };
+		85E2872F1BDE384F00F5B9D3 /* JSONWarp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E2872E1BDE384F00F5B9D3 /* JSONWarp.framework */; };
+		85E287391BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E287371BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld */; };
+		85E2873A1BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85E287371BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld */; };
 		85EEC3F41B7C6DF900F065E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEC3F31B7C6DF900F065E8 /* main.m */; };
 		85EEC3F71B7C6DF900F065E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEC3F61B7C6DF900F065E8 /* AppDelegate.m */; };
 		85EEC3FD1B7C6DF900F065E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEC3FC1B7C6DF900F065E8 /* ViewController.m */; };
@@ -22,27 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		854ADCD21BDE2CD3003DD07F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85EEC3E61B7C6DF900F065E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 854ADCC61BDE2CD3003DD07F;
-			remoteInfo = JSONWarp;
-		};
-		854ADCD41BDE2CD3003DD07F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85EEC3E61B7C6DF900F065E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 85EEC3ED1B7C6DF900F065E8;
-			remoteInfo = JSONWarpExample;
-		};
-		854ADCDA1BDE2CD3003DD07F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 85EEC3E61B7C6DF900F065E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 854ADCC61BDE2CD3003DD07F;
-			remoteInfo = JSONWarp;
-		};
 		85EEC40B1B7C6DF900F065E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 85EEC3E61B7C6DF900F065E8 /* Project object */;
@@ -59,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				854ADCDD1BDE2CD3003DD07F /* JSONWarp.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,10 +45,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		854ADCC71BDE2CD3003DD07F /* JSONWarp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONWarp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		854ADCD01BDE2CD3003DD07F /* JSONWarpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONWarpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		854ADD371BDE3592003DD07F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		854BEA581B8476BF00B022AD /* rubric.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rubric.json; sourceTree = "<group>"; };
+		85E2872E1BDE384F00F5B9D3 /* JSONWarp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JSONWarp.framework; path = "../../JSONWarp/build/Debug-iphoneos/JSONWarp.framework"; sourceTree = "<group>"; };
+		85E287311BDE38B500F5B9D3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		85E287381BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JSONWarpExample.xcdatamodel; sourceTree = "<group>"; };
 		85EEC3EE1B7C6DF900F065E8 /* JSONWarpExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONWarpExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85EEC3F21B7C6DF900F065E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85EEC3F31B7C6DF900F065E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,26 +67,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		854ADCC31BDE2CD3003DD07F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		854ADCCD1BDE2CD3003DD07F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				854ADCD11BDE2CD3003DD07F /* JSONWarp.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85EEC3EB1B7C6DF900F065E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				854ADCDC1BDE2CD3003DD07F /* JSONWarp.framework in Frameworks */,
+				85E2872F1BDE384F00F5B9D3 /* JSONWarp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +94,14 @@
 			name = "Sample JSON Files";
 			sourceTree = "<group>";
 		};
+		85E287301BDE385900F5B9D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E2872E1BDE384F00F5B9D3 /* JSONWarp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		85EEC3E51B7C6DF900F065E8 = {
 			isa = PBXGroup;
 			children = (
@@ -145,8 +116,6 @@
 			children = (
 				85EEC3EE1B7C6DF900F065E8 /* JSONWarpExample.app */,
 				85EEC40A1B7C6DF900F065E8 /* JSONWarpExampleTests.xctest */,
-				854ADCC71BDE2CD3003DD07F /* JSONWarp.framework */,
-				854ADCD01BDE2CD3003DD07F /* JSONWarpTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -163,8 +132,9 @@
 				85EEC3FE1B7C6DF900F065E8 /* Main.storyboard */,
 				85EEC4011B7C6DF900F065E8 /* Images.xcassets */,
 				85EEC4031B7C6DF900F065E8 /* LaunchScreen.xib */,
-				854ADD371BDE3592003DD07F /* PrefixHeader.pch */,
+				85E287371BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld */,
 				85EEC3F11B7C6DF900F065E8 /* Supporting Files */,
+				85E287301BDE385900F5B9D3 /* Frameworks */,
 			);
 			path = JSONWarpExample;
 			sourceTree = "<group>";
@@ -173,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				85EEC3F21B7C6DF900F065E8 /* Info.plist */,
+				85E287311BDE38B500F5B9D3 /* PrefixHeader.pch */,
 				85EEC3F31B7C6DF900F065E8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -197,54 +168,7 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		854ADCC41BDE2CD3003DD07F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		854ADCC61BDE2CD3003DD07F /* JSONWarp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 854ADCE21BDE2CD3003DD07F /* Build configuration list for PBXNativeTarget "JSONWarp" */;
-			buildPhases = (
-				854ADCC21BDE2CD3003DD07F /* Sources */,
-				854ADCC31BDE2CD3003DD07F /* Frameworks */,
-				854ADCC41BDE2CD3003DD07F /* Headers */,
-				854ADCC51BDE2CD3003DD07F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JSONWarp;
-			productName = JSONWarp;
-			productReference = 854ADCC71BDE2CD3003DD07F /* JSONWarp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		854ADCCF1BDE2CD3003DD07F /* JSONWarpTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 854ADCE41BDE2CD3003DD07F /* Build configuration list for PBXNativeTarget "JSONWarpTests" */;
-			buildPhases = (
-				854ADCCC1BDE2CD3003DD07F /* Sources */,
-				854ADCCD1BDE2CD3003DD07F /* Frameworks */,
-				854ADCCE1BDE2CD3003DD07F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				854ADCD31BDE2CD3003DD07F /* PBXTargetDependency */,
-				854ADCD51BDE2CD3003DD07F /* PBXTargetDependency */,
-			);
-			name = JSONWarpTests;
-			productName = JSONWarpTests;
-			productReference = 854ADCD01BDE2CD3003DD07F /* JSONWarpTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		85EEC3ED1B7C6DF900F065E8 /* JSONWarpExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85EEC4141B7C6DF900F065E8 /* Build configuration list for PBXNativeTarget "JSONWarpExample" */;
@@ -257,7 +181,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				854ADCDB1BDE2CD3003DD07F /* PBXTargetDependency */,
 			);
 			name = JSONWarpExample;
 			productName = JSONWarpExample;
@@ -291,13 +214,6 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Saturated Colors";
 				TargetAttributes = {
-					854ADCC61BDE2CD3003DD07F = {
-						CreatedOnToolsVersion = 7.1;
-					};
-					854ADCCF1BDE2CD3003DD07F = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = 85EEC3ED1B7C6DF900F065E8;
-					};
 					85EEC3ED1B7C6DF900F065E8 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -322,27 +238,11 @@
 			targets = (
 				85EEC3ED1B7C6DF900F065E8 /* JSONWarpExample */,
 				85EEC4091B7C6DF900F065E8 /* JSONWarpExampleTests */,
-				854ADCC61BDE2CD3003DD07F /* JSONWarp */,
-				854ADCCF1BDE2CD3003DD07F /* JSONWarpTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		854ADCC51BDE2CD3003DD07F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		854ADCCE1BDE2CD3003DD07F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85EEC3EC1B7C6DF900F065E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,24 +265,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		854ADCC21BDE2CD3003DD07F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		854ADCCC1BDE2CD3003DD07F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85EEC3EA1B7C6DF900F065E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E287391BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld in Sources */,
 				85EEC3F71B7C6DF900F065E8 /* AppDelegate.m in Sources */,
 				85EEC3FD1B7C6DF900F065E8 /* ViewController.m in Sources */,
 				85EEC3F41B7C6DF900F065E8 /* main.m in Sources */,
@@ -393,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E2873A1BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld in Sources */,
 				85EEC4111B7C6DF900F065E8 /* JSONWarpExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,21 +288,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		854ADCD31BDE2CD3003DD07F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 854ADCC61BDE2CD3003DD07F /* JSONWarp */;
-			targetProxy = 854ADCD21BDE2CD3003DD07F /* PBXContainerItemProxy */;
-		};
-		854ADCD51BDE2CD3003DD07F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 85EEC3ED1B7C6DF900F065E8 /* JSONWarpExample */;
-			targetProxy = 854ADCD41BDE2CD3003DD07F /* PBXContainerItemProxy */;
-		};
-		854ADCDB1BDE2CD3003DD07F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 854ADCC61BDE2CD3003DD07F /* JSONWarp */;
-			targetProxy = 854ADCDA1BDE2CD3003DD07F /* PBXContainerItemProxy */;
-		};
 		85EEC40C1B7C6DF900F065E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 85EEC3ED1B7C6DF900F065E8 /* JSONWarpExample */;
@@ -442,74 +315,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		854ADCDE1BDE2CD3003DD07F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JSONWarp/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.saturatedcolors.JSONWarp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		854ADCDF1BDE2CD3003DD07F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = JSONWarp/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.saturatedcolors.JSONWarp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		854ADCE01BDE2CD3003DD07F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = JSONWarpTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.saturatedcolors.JSONWarpTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONWarpExample.app/JSONWarpExample";
-			};
-			name = Debug;
-		};
-		854ADCE11BDE2CD3003DD07F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = JSONWarpTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.saturatedcolors.JSONWarpTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONWarpExample.app/JSONWarpExample";
-			};
-			name = Release;
-		};
 		85EEC4121B7C6DF900F065E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -598,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = JSONWarpExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = JSONWarpExample;
 			};
@@ -610,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = JSONWarpExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = JSONWarpExample;
 			};
@@ -652,24 +459,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		854ADCE21BDE2CD3003DD07F /* Build configuration list for PBXNativeTarget "JSONWarp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				854ADCDE1BDE2CD3003DD07F /* Debug */,
-				854ADCDF1BDE2CD3003DD07F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		854ADCE41BDE2CD3003DD07F /* Build configuration list for PBXNativeTarget "JSONWarpTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				854ADCE01BDE2CD3003DD07F /* Debug */,
-				854ADCE11BDE2CD3003DD07F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		85EEC3E91B7C6DF900F065E8 /* Build configuration list for PBXProject "JSONWarpExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -698,6 +487,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85E287371BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85E287381BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodel */,
+			);
+			currentVersion = 85E287381BDE3C9D00F5B9D3 /* JSONWarpExample.xcdatamodel */;
+			path = JSONWarpExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 85EEC3E61B7C6DF900F065E8 /* Project object */;
 }

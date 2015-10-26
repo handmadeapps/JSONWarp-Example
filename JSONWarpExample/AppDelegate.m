@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "SCLJSONWarp.h"
+#import <JSONWarp/SCLJSONWarp.h>
 
 @interface AppDelegate ()
 
